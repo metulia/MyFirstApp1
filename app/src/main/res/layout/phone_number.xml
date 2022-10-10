@@ -2,45 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="16dp">
 
     <EditText
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="text"
         android:inputType="text" />
 
     <EditText
+        android:id="@+id/textPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textPersonName"
         android:inputType="textPersonName" />
 
     <EditText
+        android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="phone"
         android:inputType="phone" />
 
     <EditText
+        android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="number"
         android:inputType="number" />
 
     <EditText
+        android:id="@+id/textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textPassword"
         android:inputType="textPassword" />
 
     <EditText
+        android:id="@+id/textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textEmailAddress"
         android:inputType="textEmailAddress" />
 
     <EditText
+        android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="date"
