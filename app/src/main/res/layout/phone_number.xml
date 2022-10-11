@@ -11,103 +11,104 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="text"
-        android:inputType="text" />
+        android:inputType="text"
+        android:autofillHints=""/>
 
     <EditText
         android:id="@+id/textPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textPersonName"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:autofillHints="no"/>
 
     <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="phone"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:autofillHints="no"/>
 
     <EditText
         android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="number"
-        android:inputType="number" />
+        android:inputType="number"
+        android:autofillHints="no"/>
 
     <EditText
         android:id="@+id/textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textPassword"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:autofillHints="no"/>
 
     <EditText
         android:id="@+id/textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="textEmailAddress"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:autofillHints="no"/>
 
     <EditText
         android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="date"
-        android:inputType="date" />
+        android:inputType="date"
+        android:autofillHints="no"/>
 
     <Button
-        android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Сохранить" />
+        android:text="Сохранить"
+        android:id="@+id/save"
+        />
 
     <TextView
         android:id="@+id/UserText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="текст: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="имя: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="телефон: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="номер: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="пароль: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="емейл: "
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/UserDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="дата: "
         android:textSize="25sp" />
 
 </LinearLayout>

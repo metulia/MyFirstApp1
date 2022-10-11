@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.phone_number);
 
         EditText userText = findViewById(R.id.text);
         EditText userTextPersonName = findViewById(R.id.textPersonName);
