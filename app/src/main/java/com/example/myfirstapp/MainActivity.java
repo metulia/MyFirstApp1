@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.phone_number);
 
+
         EditText userText = findViewById(R.id.text);
         EditText userTextPersonName = findViewById(R.id.textPersonName);
         EditText userPhone = findViewById(R.id.phone);

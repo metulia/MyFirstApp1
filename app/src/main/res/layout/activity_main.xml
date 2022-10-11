@@ -37,7 +37,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_gravity="end"
         android:backgroundTint="#DAA520"
         android:text="Button"
         android:textColor="#98FB98"
@@ -49,8 +49,7 @@
 
     <CheckBox
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <ToggleButton
         android:layout_width="wrap_content"
