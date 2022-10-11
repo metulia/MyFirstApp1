@@ -55,4 +55,59 @@
         android:hint="date"
         android:inputType="date" />
 
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+    <TextView
+        android:id="@+id/UserText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="текст: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="имя: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="телефон: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="номер: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="пароль: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="емейл: "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/UserDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="дата: "
+        android:textSize="25sp" />
+
 </LinearLayout>
